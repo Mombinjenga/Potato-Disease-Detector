@@ -1,0 +1,54 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Disease Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Title -->
+    <header>
+        <h1>Potato Disease Detection</h1>
+        <p>Upload a potato leaf image or describe symptoms to get recommendations</p>
+    </header>
+
+    <!-- Main container -->
+    <main>
+        <!-- Image Upload Form -->
+        <section class="input-section">
+            <h2>Upload Image</h2>
+            <form id="imageForm" enctype="multipart/form-data">
+                <input type="file" id="imageInput" name="image" accept="image/*" required>
+                <button type="submit">Predict from Image</button>
+            </form>
+        </section>
+
+        <!-- Text Input Form -->
+        <section class="input-section">
+            <h2>Describe Symptoms</h2>
+            <form id="textForm">
+                <textarea id="textInput" name="symptoms" rows="4" placeholder="Describe symptoms here..." required></textarea>
+                <button type="submit">Predict from Text</button>
+            </form>
+        </section>
+
+        <!-- Output Section -->
+        <section class="output-section">
+            <h2>Prediction & Recommendations</h2>
+            <div id="predictionResult">
+                <!-- Flask backend will return predictions here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Potato ML Project</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
