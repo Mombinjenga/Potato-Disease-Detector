@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Potato Disease</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Potato Disease Detector</h1>
+        <a href="index.html" class="btn-get-started">Home</a>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="home-section">
+            <h2>Upload Image</h2>
+            <form id="imageForm" enctype="multipart/form-data">
+                <input type="file" id="imageInput" name="image" accept="image/*" required>
+                <button type="submit">Predict from Image</button>
+            </form>
+        </section>
+
+        <section class="home-section">
+            <h2>Describe Symptoms</h2>
+            <form id="textForm">
+                <textarea id="textInput" name="symptoms" rows="4" placeholder="Describe symptoms here..." required></textarea>
+                <button type="submit">Predict from Text</button>
+            </form>
+        </section>
+
+        <section class="home-section">
+            <h2>Prediction & Recommendations</h2>
+            <div id="predictionResult">
+                <!-- Backend response will appear here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Contact Us</h3>
+        <p>Email: support@potatodiseasedetector.ke</p>
+        <p>Phone: +254 700 000 000</p>
+        <p>&copy; 2026 Potato Disease Detector</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
