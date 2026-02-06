@@ -26,8 +26,11 @@ Potato-Disease-Detector/
 │   ├── styles.css           # CSS styling
 │   ├── assets/              # Images and static assets
 │   ├── backend/             # Backend API (Flask/Python)
-│   └── README.md            # This file
-└── LICENSE                  # Project license
+│   └── README.md            # Frontend documentation
+├── Potato_ML.ipynb          # ML model training notebook (Google Colab)
+├── README.md                # Project documentation
+├── LICENSE                  # Project license
+└── .git/                    # Git repository metadata
 ```
 
 ---
