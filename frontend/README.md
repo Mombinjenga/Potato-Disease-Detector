@@ -18,7 +18,7 @@ A web-based AI application designed to help Kenyan farmers quickly identify and 
 ## Project Structure
 
 ```
-Potato-Disease-Detection/
+Potato-Disease-Detector/
 ├── frontend/                 # Frontend web application
 │   ├── index.html           # Landing/home page
 │   ├── predict.html         # Disease prediction page
@@ -58,8 +58,8 @@ Potato-Disease-Detection/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Potato-Disease-Detection.git
-   cd Potato-Disease-Detection
+   git clone https://github.com/yourusername/Potato-Disease-Detector.git
+   cd Potato-Disease-Detector
    ```
 
 2. **Set up the frontend**
