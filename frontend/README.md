@@ -110,14 +110,13 @@ The system will return:
 
 ---
 
-## Common Potato Diseases Detected
+## Potato Diseases Detected
 
-- **Early Blight**: Brown irregular spots with concentric rings
-- **Late Blight**: Water-soaked spots, white powdery layer underneath
-- **Septoria Leaf Spot**: Small circular spots with dark borders
-- **Bacterial Wilt**: Sudden plant wilting and leaf yellowing
-- **Fusarium Wilt**: Vascular discoloration, unilateral wilting
-- **Healthy Leaf**: No disease detected
+This model is trained to classify potato leaves into three categories:
+
+- **Early Blight**: Brown irregular spots with concentric rings on lower leaves. Prevention: Remove infected leaves, improve air circulation, apply fungicide if needed.
+- **Late Blight**: Water-soaked spots, white powdery layer underneath leaves. Prevention: Avoid overhead watering, use resistant varieties, fungicide treatment recommended.
+- **Healthy Leaf**: No disease detected. Continue regular crop management and monitoring.
 
 ---
 
